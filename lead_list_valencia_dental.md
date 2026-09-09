@@ -52,3 +52,9 @@ Nota: Clínica Doctor Moreno tiene dos sedes (Valencia y Cullera). La fila usa e
 1. **El certificado TLS de bogardental.com está caducado.** Los clientes HTTP estrictos rechazan la conexión; los datos se extrajeron del contenido servido por el sitio, que es coherente y legítimo, pero cualquier automatización que consuma esta lista debe saber que ese dominio falla la validación estándar de certificado. Un comprador real debería verificarlo por teléfono antes de campañas.
 2. **"Verificado en fuente" no es "dato activo".** Los emails y teléfonos están publicados por las propias clínicas en la fecha indicada, pero no se enviaron emails ni se hicieron llamadas de prueba (el encargo prohíbe contactar a nadie). Un buzón publicado puede estar derivado, lleno o abandonado; la deliverabilidad real es desconocida.
 3. **Los datos publicados caducan y la web es una foto del momento.** La muestra refleja lo que los sitios publicaban el 9 de septiembre de 2026. Clínicas que cambian de gestor, de dominio o cierran dejarán la fila obsoleta sin aviso. Además, la búsqueda inicial sesgó la lista hacia clínicas con buena presencia web: negocios sin página de contacto pública (o solo con ficha en Google Maps/directorios) quedaron sistemáticamente fuera, por lo que la lista **no** es un censo exhaustivo del sector dental en Valencia.
+
+## Nota de privacidad (2026-09-09)
+- Emails redactados en el CSV publicado: los buzones en dominios de correo personal (gmail) y los buzones nominativos (nombre de persona) se sustituyen por "[email en <web oficial> — redactado]". Se conserva la fuente para verificación.
+- Solo se publican buzones funcionales del dominio propio del negocio (info@, clinica@, recepcion@...): datos de contacto EMPRESARIALES públicos.
+- El dominio teresabadia.com es el dominio oficial de la propia clínica (marca del negocio), no un dato personal de particular; se conserva por trazabilidad.
+- Teléfonos: líneas de la clínica, no personales.
